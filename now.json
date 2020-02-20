@@ -3,11 +3,11 @@
   "github": {
     "silent": true
   },
-  "redirects": [
+  "routes": [
     {
-      "source": "/this",
-      "destination": "https://github.com/devjmetivier/dev-stories"
-    }
-  ],
-  "routes": [{ "src": "/(.*)", "dest": "/" }]
+      "src": "/this",
+      "dest": "https://github.com/devjmetivier/dev-stories"
+    },
+    { "src": "/(.*)", "dest": "/" }
+  ]
 }
