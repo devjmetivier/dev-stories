@@ -1,0 +1,7 @@
+{
+  "alias": ["devstories.tech", "devstories"],
+  "github": {
+    "silent": true
+  },
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
+}
