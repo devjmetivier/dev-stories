@@ -1,0 +1,25 @@
+{
+  "name": "dev-stories",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devjmetivier/dev-stories.git",
+  "author": "Devin Metivier <devinmetivier@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "micro-redirect": "^1.0.2",
+    "next": "^9.2.2",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "@types/react": "^16.9.21",
+    "typescript": "^3.7.5"
+  }
+}
